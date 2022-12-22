@@ -1,0 +1,8 @@
+node_modules/
+config/
+Express/ExpressEx1/node_modules/
+express-app/node_modules/
+mongodb-setup/node_modules/
+node-app/node_modules/
+node-app/.env
+seed-app/node_modules/
