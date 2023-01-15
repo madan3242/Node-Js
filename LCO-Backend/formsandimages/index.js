@@ -7,9 +7,9 @@ const app = express();
 app.set("view engine", "ejs");
 
 cloudinary.config({
-    cloud_name: 'dbkxwivtn',
-    api_key: '345137924781689',
-    api_secret: 'z4DpNdmEL7l6wkejiW3_-uJDqRY'
+    cloud_name: '',
+    api_key: '',
+    api_secret: ''
 })
 // middleware
 app.use(fileUpload({
