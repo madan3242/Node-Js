@@ -42,7 +42,6 @@ passport.use(new GoogleStrategy({
                 })
             }
         })
-
         // next();
     }
 ));

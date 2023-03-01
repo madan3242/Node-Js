@@ -13,7 +13,8 @@ const { signup,
         managerAllUsers,
         adminGetUser,
         adminUpdateUser,
-        adminDeleteUser} = require('../controllers/userController');
+        adminDeleteUser
+      } = require('../controllers/userController');
 const { isLoggedIn, customRole } = require('../middlewares/user');
 
 router.route('/signup').post(signup);
